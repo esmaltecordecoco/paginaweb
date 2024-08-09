@@ -1,0 +1,61 @@
+body{
+  color: white;
+  background: black;
+  margin: 20px;
+}
+
+header{
+  font-size: 40px;
+  color: blue;
+  border-bottom: solid 10px white;
+  margin: 2px;
+  padding:20px;
+  display: relative;
+  font-family: "Rubik Mono One", monospace;
+}
+
+.inicio{
+  background: rgb(168,168,243);
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  font-family: "Inter", sans-serif;
+}
+
+.entrada{
+  margin-right: 50px
+    
+}
+
+.descricao{
+  font-size: 30px;
+    text-align: justify;
+}
+
+img{
+  height: 100px;
+}
+
+.musicas{
+  display:flex;
+  overflow-x:auto;
+  gap: 10px; 
+}
+
+.outros{
+  font-family: "Rubik Mono One", monospace;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.outros img{
+  opacity: 0.5;
+}
+
+.outros img:hover{
+  opacity: 1.0;
+  border: solid 3px blue;
+  border-radius: 4px;
+}
